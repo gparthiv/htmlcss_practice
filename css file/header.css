@@ -1,0 +1,35 @@
+        .search {
+            display: block;
+            height: 25px;
+            width: 400px;
+        }
+
+        .header {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background-color: white;
+            /* align-items: center; */
+        }
+
+        .left {
+            background-color: lightblue;
+            width: 150px;
+        }
+
+        .mid {
+            margin-left: 70px;
+            margin-right: 35px;
+            background-color: lightpink;
+            flex: 1;
+            max-width: 700px;
+        }
+
+        .right {
+            background-color: lightblue;
+            width: 200px;
+        }
