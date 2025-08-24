@@ -22,16 +22,7 @@
         }
 
         .thumbnail {
-            display: block;
-            width: 300px;
-        }
-
-        .videoblock {
-            width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 15px;
-
+            width: 100%;
         }
 
         .title {
@@ -42,15 +33,9 @@
             line-height: 20px;
         }
 
-        .pfp {
-            display: inline-block;
-            width: 50px;
-            vertical-align: top;
-        }
-
-        .vidinfo {
-            display: inline-block;
-            width: 200px;
+        .vidinfo_grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
         }
 
         .pfpic {
@@ -71,36 +56,112 @@
         .tn {
             margin-bottom: 10px;
         }
+
+        .ytgrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 40px;
+            column-gap: 16px;
+        }
     </style>
 
 </head>
 
 <body>
     <input class="search" type="text" placeholder="Search">
-    <div class="videoblock">
-        <div class="tn">
-            <img class="thumbnail" src="thumbnails/image.png">
+    <div class="ytgrid">
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch1.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">India's QSR Industry: Margins, Growth & Struggles | The Daily Brief Hindi</p>
+                    <p class="author">Markets by Zerodha Hindi</p>
+                    <p class="stats">10K views &#8226 2 days ago</p>
+                </div>
+            </div>
         </div>
-        <div class="pfp">
-            <img class="pfpic" src="ytpfp/ch1.png">
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image2.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch2.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">How to get into High Paying Finance Roles?</p>
+                    <p class="author">Ananta Chhajer</p>
+                    <p class="stats">6.2K views &#8226 2 days ago</p>
+                </div>
+            </div>
         </div>
-        <div class="vidinfo">
-            <p class="title">India's QSR Industry: Margins, Growth & Struggles | The Daily Brief Hindi</p>
-            <p class="author">Markets by Zerodha Hindi</p>
-            <p class="stats">10K views &#8226 2 days ago</p>
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image3.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch3.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">India's QSR Industry: Margins, Growth & Struggles | The Daily Brief Hindi</p>
+                    <p class="author">Markets by Zerodha Hindi</p>
+                    <p class="stats">10K views &#8226 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image4.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch4.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">How to get into High Paying Finance Roles?</p>
+                    <p class="author">Ananta Chhajer</p>
+                    <p class="stats">6.2K views &#8226 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image5.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch5.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">India's QSR Industry: Margins, Growth & Struggles | The Daily Brief Hindi</p>
+                    <p class="author">Markets by Zerodha Hindi</p>
+                    <p class="stats">10K views &#8226 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="videoblock">
+            <div class="tn">
+                <img class="thumbnail" src="thumbnails/image6.png">
+            </div>
+            <div class="vidinfo_grid">
+                <div class="pfp">
+                    <img class="pfpic" src="ytpfp/ch6.png">
+                </div>
+                <div class="vidinfo">
+                    <p class="title">How to get into High Paying Finance Roles?</p>
+                    <p class="author">Ananta Chhajer</p>
+                    <p class="stats">6.2K views &#8226 2 days ago</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="videoblock">
-        <div class="tn"><img class="thumbnail" src="thumbnails/image2.png"></div>
-        <div class="pfp">
-            <img class="pfpic" src="ytpfp/ch2.png">
-        </div>
-        <div class="vidinfo">
-            <p class="title">How to get into High Paying Finance Roles?</p>
-            <p class="author">Ananta Chhajer</p>
-            <p class="stats">6.2K views &#8226 2 days ago</p>
-        </div>
-    </div>
+
 
 </body>
 
