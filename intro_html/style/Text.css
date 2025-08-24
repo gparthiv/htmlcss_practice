@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-
-<head>
-    <title>Text</title>
-    <style>
         p {
             font-family: Arial;
             text-align: center;
@@ -78,22 +73,3 @@
         .After {
             text-align: left;
         }
-    </style>
-</head>
-
-<body>
-    <p class="New">New</p>
-    <p class="mac">MacBook Pro</p>
-    <p class="title">Supercharged for pros.</p>
-    <p class="price">From $1999</p>
-    <p><button class="buy">Buy</button></p>
-    <br>
-    <br>
-    <div class="new2">
-        <p class="price1">1,049.61<span class="curr">USD</span></p>
-        <p class="today"> +18.05 (1.75%) today</p>
-        <p class="After"> After hours 1,048.00
-            <span class="chng">-1.61 (0.15%)</span>
-        </p>
-    </div>
-</body>

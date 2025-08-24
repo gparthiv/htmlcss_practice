@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-
-<head>
-    <title>Github Button</title>
-    <style>
-        body{
+body{
             background-color: rgb(35, 35, 35);
             display: flex;
             justify-content: center;
-            align-items: center;
+            /* align-items: center; */
         }
         .github {
             background-color: rgb(46, 164, 79);
@@ -32,9 +27,3 @@
         .github:active {
             opacity: 0.5;
         }
-    </style>
-</head>
-
-<body>
-    <button class="github">Sign up</button>
-</body>
