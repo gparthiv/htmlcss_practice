@@ -16,6 +16,19 @@
             /* align-items: center; */
         }
 
+        .sidebar{
+            display: block;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 80px;
+            width: 80px;
+;
+            background-color: lightpink;
+            justify-content:left;
+        }
+
         .left {
             background-color: lightblue;
             width: 150px;
